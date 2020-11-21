@@ -97,7 +97,7 @@
 }
 
 .comment-username{
-    display: block;
+    display: inline-block;
     margin-bottom: 4px;
 }
 
