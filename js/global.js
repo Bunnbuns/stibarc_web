@@ -58,6 +58,10 @@ var checkVerified = function(poster) {
 	}
 }
 
+function goToPost(id) {
+	window.location.href = './post.html?id=' + id;
+}
+
 function loadTheme() {
 	try {
 		var theme = localStorage.getItem('theme');
